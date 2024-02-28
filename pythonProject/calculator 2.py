@@ -18,6 +18,7 @@ def calculator():
     print("4. dev")
 
     choice = input("enter choice (1/2/3/4):")
+
     num1 = float(input("enter first number: "))
     num2 = float(input("Enter second number: "))
 

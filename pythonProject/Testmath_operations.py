@@ -18,8 +18,19 @@ result_multiply = multiply(2,6)
 result_divide = divide(8,2)
 result_power = power(9,3)
 
-print("result of add :",result_add)
-print("result of sub :",result_subtract)
-print("result of multiply :",result_multiply)
-print("result of divide :",result_divide)
-print("result of power :",result_power)
+# print("result of add :",result_add)
+# print("result of sub :",result_subtract)
+# print("result of multiply :",result_multiply)
+# print("result of divide :",result_divide)
+# print("result of power :",result_power)
+
+
+# num=100
+# while  (num>=0):
+#     print(num)
+#     num -=1
+
+def marks(hindi,maths,chemistry):
+    d=hindi+maths+chemistry
+    print("total marks =",d)
+marks(85,92,83)

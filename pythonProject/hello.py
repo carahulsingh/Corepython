@@ -133,3 +133,27 @@ else:
 # x=5
 # y=float(x)
 # print("value of y",y)
+
+
+#from Rays import *
+# add(rahul,rajawat)
+
+
+# class Person:
+#     def __init__(self,name,age, gender, profession):
+#         self.NAME = name
+#         self.AGE = age
+#         self.GENDER = gender
+#         self.PROFESSION = profession
+#
+#     def greets(self):
+#         return f"hello everyone, my name is{self.NAME}.i am {self.AGE}.i am {self.GENDER} i am {self.PROFESSION}"
+#
+# p=Person("shivam",23,"mLE","ENN")
+# print(p.greets())
+
+user =int(input("mobile no"))
+if user > 9999999999 or user < 1000000000:
+    print("invalid no.")
+else:
+    print("valid no.")
